@@ -1,0 +1,18 @@
+.header {
+		 font-family: arial;
+		 font-size: 24px;
+		 text-align: center;
+		 padding: 30px;
+		 color: black;
+		 }
+
+.image {
+		 height: 500px; 
+		 width: 375px;
+		 padding: 20px;
+		 float: left;
+		 }
+.tiny  {
+		 font-family: baskerville;
+		 font-size: 12px;
+		 }

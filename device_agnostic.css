@@ -7,12 +7,94 @@
 		 }
 
 .image {
-		 height: 500px; 
-		 width: 375px;
+         display: inline-block;
+		 height: 100%; 
+		 width: 28%;
 		 padding: 20px;
 		 float: left;
 		 }
-.tiny  {
-		 font-family: baskerville;
-		 font-size: 12px;
+		 
+.tiny  { 
+		 text-align: justify;
+		 font-family: athelas;
+		 font-size: 11px;
+		 padding: 17px;
+		 width: 675px;		 
+		 }        
+		 				 
+.column {display: inline-block;
 		 }
+		 
+.left {
+		display: inline-block;
+		width: 35%;
+		padding: 10px;
+		text-align: right;
+		
+		 }
+		 
+.middle {
+		 display: inline-block;
+		 width: 40%;
+		 text-align: justify;
+		 padding: 10px;
+		 }
+		 
+.right {
+		 display: inline-block;
+		 width: 5%;
+		
+		 }
+
+.row {
+		 display: table;
+         clear: both;
+         }
+         
+.scoot    { position: absolute;
+            bottom: -115px;
+            left: 310px;
+            }
+         
+.small-font {
+          font-family: athleas;
+		  font-size: 11px;
+		  }
+
+.ludlow {   font-family: ludlow;
+            }
+
+.delphian { font-family: delphian;
+			font-size: 300%
+		    }
+			
+          
+.record   { font-family: avenir;
+            }
+          
+.tempo    { font-family: arial;
+            }
+            
+.margin   { margin-left: 500px;
+            }
+            
+@media only screen and (max-device-width: 600px) {
+    body { 
+
+    
+.tiny {
+       width: 100%;
+       }
+       
+.left {width: 100%;
+       }
+       
+.middle {width: 100%;
+         }
+
+.right {width: 100%;
+        }
+        
+    }
+}
+
